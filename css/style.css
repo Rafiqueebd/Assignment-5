@@ -1,0 +1,331 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    float: left;
+    background: #F9F9F9;
+    padding: 25px 0px;
+}
+.logo{
+    width: 40%;
+    float: left;
+   }
+
+.menu{
+    width: 60%;
+    float: left;
+    
+    
+}
+
+nav ul{
+    list-style: none;
+   
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0px 0px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px;
+    color: #2D3950;
+    background: #A8A8A8;
+    padding: 5px;
+    border-radius: 10px;
+    text-transform: capitalize; 
+    transition: 0.4s ease in-out;
+    }
+nav ul li a:hover{
+    color: #15A4FA;
+       
+    }
+
+.banner-area{
+    width: 100%;
+    float: left;
+    background: url(../img/banner-image.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding-top: 150px;
+}
+.banner{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 0px;
+    text-align: center;
+    
+  
+  }
+
+.banner h1{
+    color: #fff;
+    font-size: 100px;
+    text-transform: uppercase;
+       
+}
+
+.banner span{
+    border: 1px solid #16A2F9;
+    width: 50%;
+    margin: 20px auto;
+    display: block; 
+    
+}
+
+.banner p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.banner button{
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #16A2F9;
+    color: #fff;
+    font-size: 15px;
+    margin: 10% auto;
+}
+
+.banner-icon{
+    color: #fff;
+    font-size: 20px;
+}
+
+.design-area{
+    width: 100%;
+    float: left;
+    background: #F9F9F9;
+}
+
+.design{
+    width: 80%;
+    margin: 0 auto;
+    
+    padding: 70px 0px;
+    text-align: center;
+    
+}
+
+.design h1{
+    color: #293551;
+        
+}
+
+.design p{
+    color: #979998;
+    margin-top: 20px;
+    
+}
+
+.feature-area{
+    width: 60%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+.feature-opt{
+    width: 33%;
+    float: left;
+    
+}
+
+.feature-opt img{
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+   
+    
+}
+.feature-opt h2{
+    color: #2A3249;
+    margin: 15px 0px;
+    
+    
+}
+.feature-opt p{
+    color: #A3A3A3;
+    
+}
+
+.feature-cle{
+     width: 33%;
+    float: left;
+    
+}
+
+.feature-cle img{
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+.feature-cle h2{
+    color: #2A3249;
+    margin: 15px 0px;
+}
+
+.feature-cle p{
+    color: #A3A3A3;
+}
+
+.feature-fnt{
+     width: 33%;
+    float: left;
+    
+}
+.feature-fnt img{
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+    
+}
+.feature-fnt h2{
+   color: #2A3249;
+    margin: 15px 0px; 
+}
+.feature-fnt p{
+    color: #A3A3A3;
+}
+
+.portfolio{
+    width: 100%;
+    float: left;
+    background: #F9F9F9;
+    text-align: center;
+        
+}
+
+.portfolio h3{
+    color: #2C384E;
+    margin-top: 50px;
+    
+}
+
+.portfolio h4{
+    color: #949695;
+    margin: 15px 0px 15px 0px;
+    
+}
+
+.portfolio-banner{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0px 20px 0px;
+    
+    
+}
+.portfolio-banner img{
+    margin: 5px;
+}
+
+.portfolio-banner img:hover{
+    
+}
+
+.contact{
+    width: 100%;
+    float: left;
+    background: #2F374A;
+    text-align: center;
+    
+}
+.contact h3{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 50px;
+    
+}
+.contact h5{
+    color: #949590;
+    margin: 10px auto;
+    
+}
+.contact-form{
+    width: 50%;
+    margin: 0 auto;
+        
+}
+.form-contact{
+    width: 100%;
+    padding: 15px;
+    margin: 5px auto;
+    background: transparent;
+    border: 1px solid #8C8E8F;
+    
+}
+.text-area{
+    width: 100%;
+    padding: 100px 15px;
+    margin: 5px auto;
+    background: transparent;
+    border: 1px solid #8C8E8F;
+    
+}
+.send-button{
+    padding: 10px 50px;
+    background: transparent;
+    border: 2px solid #16A2F9;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    margin: 10% auto;
+    
+  }
+footer{
+    width: 100%;
+    float: left;
+    background: #F9F9F9;
+    padding: 25px 0px;
+}
+
+.footer-text{
+    width: 40%;
+    float: left;
+}
+
+.footer-text h5{
+    padding: 10px;
+   color: #A9ABAA;
+    margin: 0px 0px 0px 100px;
+}
+.footer-icons{
+    width: 60%;
+    float: left;
+    }
+.fa.fa-facebook{
+    padding: 20px;
+    background: #16A4FA; 
+    color: #fff;
+    border-radius: 5px;
+    margin: 0px 20px;
+     
+}
+.fa.fa-twitter{
+    padding: 20px;
+    background: #16A4FA; 
+    color: #fff;
+    border-radius: 5px;
+    margin: 0px 20px;
+}
+.fa.fa-google-plus{
+    padding: 20px;
+    background: #16A4FA; 
+    color: #fff;
+    border-radius: 5px;
+    margin: 0px 20px;
+}
+
